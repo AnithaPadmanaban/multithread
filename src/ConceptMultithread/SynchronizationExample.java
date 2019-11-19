@@ -1,7 +1,7 @@
 package ConceptMultithread;
 
 class Printer {
-	 public static void print(String arg[])
+	synchronized public static void print(String arg[])
 
 	{
 		for (int i = 0; i < arg.length; i++) {
